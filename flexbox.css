@@ -1,0 +1,32 @@
+div{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    height: 500px;
+    margin: 10px;
+    padding: 10px;
+    background: papayawhip;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*para colocarlos*/
+    justify-content:space-around;
+    align-items: center;
+    /*align-items: flex-end;*/
+    /*para respetar los tañamos*/
+    /*flex-wrap: wrap;*/
+}
+.hijo{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    font-size: large;
+    background: deeppink;
+    margin: 30px;
+    padding: 10px;
+}
